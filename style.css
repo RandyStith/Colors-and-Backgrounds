@@ -25,3 +25,33 @@ html, body {
 .border4 {
   border: 10px dotted black;
 }
+
+a.one:link {
+  background-color: blue;
+  color: white;
+  font-family: Cambria, serif;
+}
+a.one:visited {
+  background-color: blue;
+  color: white;
+  font-family: Cambria, serif;
+}
+a.one:hover {
+  font-family: fantasy;
+  cursor: pointer;
+}
+
+a.two:link {
+border: 2px solid red;
+background-color: white;
+}
+a.two:visited {
+border: 2px solid red;
+background-color: white;
+}
+a.two:hover {
+background-color: blue;
+color: white;
+font-size: 150%;
+}
+
